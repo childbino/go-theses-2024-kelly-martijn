@@ -134,6 +134,19 @@ header {
   margin-left: 5px;
 }
 
+@media screen and (max-width:400px){
+
+  .column-content {
+    display: block;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  #left-column {
+    display: none; 
+  }
+}
+
 .selected {
   font-weight: bold;
   background-color: rgb(208, 208, 208);
